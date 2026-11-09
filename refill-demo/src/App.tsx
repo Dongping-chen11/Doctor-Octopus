@@ -117,7 +117,7 @@ export default function App() {
       <header className="top">
         <div className="brand">
           <span className="brand-mark"><LogoMark /></span>
-          <div>Refill<small>{portal === 'clinic' ? 'Clinic portal · short-notice slot recovery' : 'Patient app · get seen sooner'}</small></div>
+          <div>Doctor Octopus<small>{portal === 'clinic' ? 'Clinic portal · short-notice slot recovery' : 'Patient app · get seen sooner'}</small></div>
         </div>
         <div className="top-right">
           <div className="portal-switch" role="tablist" aria-label="Portal">
@@ -231,7 +231,7 @@ export default function App() {
         </div>
       )}
 
-      <footer className="footer">Refill prototype for natHacks 2026. Schedules and histories come from two Edmonton clinics’ anonymized exports; names, locations, availability and the extra directory clinics are mock.</footer>
+      <footer className="footer">Doctor Octopus prototype for natHacks 2026. Schedules and histories come from two Edmonton clinics’ anonymized exports; names, locations, availability and the extra directory clinics are mock.</footer>
     </div>
   );
 }
