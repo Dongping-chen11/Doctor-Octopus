@@ -1,0 +1,5 @@
+policy,simulated_fill_rate,simulated_fills,scenarios,offers_per_opening,mean_wait_priority_of_offered,first_choice_fill_rate
+waitlist_first,0.971,233,240,3.0,0.651,0.646
+rules,0.971,233,240,3.0,0.651,0.796
+ml_only,0.971,233,240,3.0,0.651,0.787
+hybrid,0.971,233,240,3.0,0.651,0.792

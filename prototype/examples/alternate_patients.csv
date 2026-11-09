@@ -1,0 +1,11 @@
+patient_id,request_id,clinic_preference,visit_type,preferred_provider_id,provider_required,available_start,available_end,referral_verified,insurance_verified,existing_booking_start,existing_booking_end,waitlist_since,requested_service,requested_duration_min,estimated_travel_minutes,opt_in_short_notice_offers,active_earlier_appointment_request,max_travel_minutes,minimum_notice_minutes,transport_mode,accessibility_required
+SYN-P001,SYN-R001,any,follow_up,REV-PHY-01,False,2026-11-08 12:00,2026-11-08 18:00,True,True,,,2026-10-25,physiotherapy,30,20,Yes,Yes,30,15,car,False
+SYN-P002,SYN-R002,any,follow_up,REV-PHY-02,False,2026-11-08 12:00,2026-11-08 18:00,True,True,,,2026-10-25,physiotherapy,30,15,Yes,Yes,30,15,car,False
+SYN-P003,SYN-R003,any,standard,REV-PHY-01,False,2026-11-08 12:00,2026-11-08 18:00,True,True,,,2026-10-25,massage,60,20,Yes,Yes,30,15,car,False
+SYN-P004,SYN-R004,any,initial,REV-PHY-01,False,2026-11-08 12:00,2026-11-08 18:00,True,True,,,2026-10-25,physiotherapy,60,20,Yes,Yes,30,15,car,False
+SYN-P005,SYN-R005,any,follow_up,REV-PHY-01,False,2026-11-08 15:00,2026-11-08 18:00,True,True,,,2026-10-25,physiotherapy,30,20,Yes,Yes,30,15,car,False
+SYN-P006,SYN-R006,any,follow_up,REV-PHY-01,False,2026-11-08 12:00,2026-11-08 14:10,True,True,,,2026-10-25,physiotherapy,30,20,Yes,Yes,180,15,car,False
+SYN-P007,SYN-R007,any,follow_up,REV-PHY-01,False,2026-11-08 12:00,2026-11-08 18:00,True,True,,,2026-10-25,physiotherapy,30,130,Yes,Yes,180,15,car,False
+SYN-P008,SYN-R008,any,follow_up,REV-PHY-01,False,2026-11-08 12:00,2026-11-08 18:00,True,True,,,2026-10-25,physiotherapy,30,20,No,Yes,180,15,car,False
+SYN-P009,SYN-R009,any,follow_up,REV-PHY-01,False,2026-11-08 12:00,2026-11-08 18:00,True,True,,,2026-10-25,physiotherapy,30,20,Yes,No,180,15,car,False
+SYN-P010,SYN-R010,BETHESDA,follow_up,REV-PHY-01,False,2026-11-08 12:00,2026-11-08 18:00,True,True,,,2026-10-25,physiotherapy,30,20,Yes,Yes,180,15,car,False

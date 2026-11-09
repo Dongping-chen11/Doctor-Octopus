@@ -1,0 +1,6 @@
+slot_id,clinic_id,provider_id,service_type,visit_type,duration_min,start_at,end_at,released_at,referral_required,insurance_required,status,reset_minutes,accessible
+S001,REVIVE,REV-PHY-01,physiotherapy,follow_up,30,2026-11-08 14:00,2026-11-08 14:30,2026-11-08 12:00,False,False,open,0,True
+S002,BETHESDA,BET-MAS-01,massage,standard,60,2026-11-08 16:00,2026-11-08 17:00,2026-11-08 13:00,False,False,open,0,True
+S003,REVIVE,REV-PHY-01,physiotherapy,initial,60,2026-11-09 11:00,2026-11-09 12:00,2026-11-08 17:00,False,False,open,0,True
+S004,BETHESDA,BET-ACU-01,acupuncture,follow_up,45,2026-11-09 15:00,2026-11-09 15:45,2026-11-09 12:00,False,False,open,0,True
+S005,REVIVE,REV-PHY-02,physiotherapy,follow_up,30,2026-11-09 17:00,2026-11-09 17:30,2026-11-09 14:00,True,True,open,0,True

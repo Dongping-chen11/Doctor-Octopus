@@ -1,0 +1,12 @@
+{
+  "intercept": -0.8870585340637188,
+  "coefficients": {
+    "travel_ease": 0.7896879438721208,
+    "practitioner_match": 0.5357746588031957,
+    "clinic_match": 0.2992116057080767,
+    "wait_norm": 0.07181039126657353,
+    "notice_norm": 0.3712859986911516,
+    "earlier_benefit": 0.4104673934262144
+  },
+  "warning": "Synthetic training labels; not real patient acceptance probabilities"
+}
