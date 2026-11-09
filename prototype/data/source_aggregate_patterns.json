@@ -1,0 +1,172 @@
+{
+  "BETHESDA": {
+    "clinic": "Bethesda Health & Wellness",
+    "total_source_appointment_rows": 7886,
+    "top_service_labels": [
+      [
+        "60 mins massage",
+        2070
+      ],
+      [
+        "Hydrafacial Rejuv 60mins",
+        258
+      ],
+      [
+        "90 mins massage",
+        235
+      ],
+      [
+        "Initial Assessment and Treatment",
+        215
+      ],
+      [
+        "Subsequent Treatment",
+        208
+      ],
+      [
+        "Ayurvedic Massage + Steam+ Shower",
+        135
+      ],
+      [
+        "Follow up Acupuncture & modality",
+        133
+      ],
+      [
+        "Chiro Adjusment",
+        116
+      ],
+      [
+        "Layers Hair cut",
+        111
+      ]
+    ],
+    "top_slot_durations_minutes": [
+      [
+        80,
+        1908
+      ],
+      [
+        90,
+        638
+      ],
+      [
+        45,
+        551
+      ],
+      [
+        60,
+        511
+      ],
+      [
+        30,
+        352
+      ],
+      [
+        20,
+        316
+      ],
+      [
+        75,
+        280
+      ],
+      [
+        105,
+        278
+      ]
+    ],
+    "status_totals": {
+      "never_booked": 2416,
+      "arrived": 2827,
+      "archived": 407,
+      "rescheduled": 1707,
+      "cancelled": 452,
+      "booked": 42,
+      "no_show": 35
+    }
+  },
+  "REVIVE": {
+    "clinic": "Revive Rehab",
+    "total_source_appointment_rows": 8296,
+    "top_service_labels": [
+      [
+        "Physiotherapy - MVA",
+        1160
+      ],
+      [
+        "60 minute Massage",
+        1104
+      ],
+      [
+        "WCB Treatment",
+        477
+      ],
+      [
+        "Subsequent Treatment",
+        451
+      ],
+      [
+        "Shockwave Therapy - MVA",
+        402
+      ],
+      [
+        "Initial Assessment & treatment",
+        267
+      ],
+      [
+        "Hydrafacial Deluxe 90mins",
+        202
+      ],
+      [
+        "Assessment/progress/discharge Report",
+        195
+      ],
+      [
+        "90 minute Massage",
+        190
+      ]
+    ],
+    "top_slot_durations_minutes": [
+      [
+        20,
+        1351
+      ],
+      [
+        40,
+        1169
+      ],
+      [
+        80,
+        1111
+      ],
+      [
+        45,
+        452
+      ],
+      [
+        30,
+        428
+      ],
+      [
+        90,
+        411
+      ],
+      [
+        60,
+        385
+      ],
+      [
+        15,
+        381
+      ]
+    ],
+    "status_totals": {
+      "archived": 467,
+      "arrived": 3557,
+      "rescheduled": 1228,
+      "cancelled": 664,
+      "never_booked": 2270,
+      "no_show": 49,
+      "booked": 61
+    }
+  }
+}

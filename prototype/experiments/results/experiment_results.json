@@ -1,0 +1,70 @@
+{
+  "model_metrics": {
+    "dataset": "ENTIRELY SYNTHETIC simulated offer responses (NOT Rosemi clinical patient records)",
+    "training_offer_events": 1680,
+    "test_offer_events": 720,
+    "training_patient_ids": 35,
+    "test_patient_ids": 15,
+    "test_brier": 0.2187,
+    "test_log_loss": 0.6282,
+    "test_majority_baseline_brier": 0.2386
+  },
+  "comparison": {
+    "waitlist_first": {
+      "fill_rate": 0.971,
+      "filled": 233,
+      "first_choice_fill_rate": 0.646,
+      "first_choice_fills": 155,
+      "scenarios": 240,
+      "avg_offers_sent": 3.0,
+      "avg_wait_norm_offered": 0.651
+    },
+    "rules": {
+      "fill_rate": 0.971,
+      "filled": 233,
+      "first_choice_fill_rate": 0.796,
+      "first_choice_fills": 191,
+      "scenarios": 240,
+      "avg_offers_sent": 3.0,
+      "avg_wait_norm_offered": 0.651
+    },
+    "ml_only": {
+      "fill_rate": 0.971,
+      "filled": 233,
+      "first_choice_fill_rate": 0.787,
+      "first_choice_fills": 189,
+      "scenarios": 240,
+      "avg_offers_sent": 3.0,
+      "avg_wait_norm_offered": 0.651
+    },
+    "hybrid": {
+      "fill_rate": 0.971,
+      "filled": 233,
+      "first_choice_fill_rate": 0.792,
+      "first_choice_fills": 190,
+      "scenarios": 240,
+      "avg_offers_sent": 3.0,
+      "avg_wait_norm_offered": 0.651
+    }
+  },
+  "model": {
+    "intercept": -0.8870585340637188,
+    "coefficients": {
+      "travel_ease": 0.7896879438721208,
+      "practitioner_match": 0.5357746588031957,
+      "clinic_match": 0.2992116057080767,
+      "wait_norm": 0.07181039126657353,
+      "notice_norm": 0.3712859986911516,
+      "earlier_benefit": 0.4104673934262144
+    },
+    "warning": "Synthetic training labels; not real patient acceptance probabilities"
+  },
+  "method": "400 seeded fictional hypothetical offers across five slots; only slots with >=2 eligible patients are compared, with identical candidate outcomes for each policy; top 3 offered once; no real-world outcome claims.",
+  "cautions": [
+    "Show-up model deliberately excluded",
+    "Acceptance responses are generated from invented probabilities",
+    "Observed performance is only performance against that synthetic generator",
+    "Independence and fairness are not validated",
+    "Original booking workflow is unchanged"
+  ]
+}
