@@ -1,0 +1,341 @@
+{
+ "clinics": [
+  {
+   "id": "bethesda",
+   "name": "Bethesda Health & Wellness",
+   "short": "Bethesda",
+   "lat": 53.463,
+   "lng": -113.43
+  },
+  {
+   "id": "revive",
+   "name": "Revive Rehab Physio & Massage",
+   "short": "Revive",
+   "lat": 53.596,
+   "lng": -113.515
+  }
+ ],
+ "providers": [
+  {
+   "id": "ahmed-sleiman",
+   "name": "Ahmed Sleiman",
+   "clinics": [
+    "bethesda",
+    "revive"
+   ],
+   "categories": [
+    "chiro",
+    "physio"
+   ],
+   "typicalDuration": {
+    "chiro": 30,
+    "physio": 45
+   },
+   "volume": 426,
+   "languages": [
+    "English"
+   ]
+  },
+  {
+   "id": "aksa-scaria",
+   "name": "Aksa Scaria",
+   "clinics": [
+    "bethesda",
+    "revive"
+   ],
+   "categories": [
+    "massage"
+   ],
+   "typicalDuration": {
+    "massage": 80
+   },
+   "volume": 311,
+   "languages": [
+    "English",
+    "Malayalam"
+   ]
+  },
+  {
+   "id": "anastasiia-shvorak",
+   "name": "Anastasiia Shvorak",
+   "clinics": [
+    "bethesda"
+   ],
+   "categories": [
+    "massage"
+   ],
+   "typicalDuration": {
+    "massage": 80
+   },
+   "volume": 1182,
+   "languages": [
+    "English",
+    "Ukrainian"
+   ]
+  },
+  {
+   "id": "ben-mathew",
+   "name": "Ben Mathew",
+   "clinics": [
+    "revive"
+   ],
+   "categories": [
+    "physio"
+   ],
+   "typicalDuration": {
+    "physio": 20
+   },
+   "volume": 96,
+   "languages": [
+    "English",
+    "Malayalam"
+   ]
+  },
+  {
+   "id": "betiel-alemu",
+   "name": "Betiel Alemu",
+   "clinics": [
+    "revive"
+   ],
+   "categories": [
+    "massage"
+   ],
+   "typicalDuration": {
+    "massage": 80
+   },
+   "volume": 103,
+   "languages": [
+    "English"
+   ]
+  },
+  {
+   "id": "biji-sajeev",
+   "name": "Biji Sajeev",
+   "clinics": [
+    "revive"
+   ],
+   "categories": [
+    "physio"
+   ],
+   "typicalDuration": {
+    "physio": 30
+   },
+   "volume": 256,
+   "languages": [
+    "English",
+    "Malayalam"
+   ]
+  },
+  {
+   "id": "binu-johnson",
+   "name": "Binu Johnson",
+   "clinics": [
+    "bethesda",
+    "revive"
+   ],
+   "categories": [
+    "massage"
+   ],
+   "typicalDuration": {
+    "massage": 80
+   },
+   "volume": 1192,
+   "languages": [
+    "English",
+    "Malayalam"
+   ]
+  },
+  {
+   "id": "bisma-gill",
+   "name": "Bisma Gill",
+   "clinics": [
+    "bethesda",
+    "revive"
+   ],
+   "categories": [
+    "aesthetics"
+   ],
+   "typicalDuration": {
+    "aesthetics": 45
+   },
+   "volume": 1280,
+   "languages": [
+    "English",
+    "Punjabi"
+   ]
+  },
+  {
+   "id": "bobby-mathew-zachariah",
+   "name": "Bobby Mathew Zachariah",
+   "clinics": [
+    "bethesda",
+    "revive"
+   ],
+   "categories": [
+    "massage"
+   ],
+   "typicalDuration": {
+    "massage": 80
+   },
+   "volume": 298,
+   "languages": [
+    "English",
+    "Malayalam"
+   ]
+  },
+  {
+   "id": "lucy-wood",
+   "name": "Lucy Wood",
+   "clinics": [
+    "revive"
+   ],
+   "categories": [
+    "massage"
+   ],
+   "typicalDuration": {
+    "massage": 80
+   },
+   "volume": 581,
+   "languages": [
+    "English"
+   ]
+  },
+  {
+   "id": "mariia-kuzik",
+   "name": "Mariia Kuzik",
+   "clinics": [
+    "bethesda",
+    "revive"
+   ],
+   "categories": [
+    "aesthetics"
+   ],
+   "typicalDuration": {
+    "aesthetics": 45
+   },
+   "volume": 75,
+   "languages": [
+    "English",
+    "Ukrainian"
+   ]
+  },
+  {
+   "id": "nancy-kaur-gill",
+   "name": "Nancy Kaur Gill",
+   "clinics": [
+    "bethesda"
+   ],
+   "categories": [
+    "acupuncture"
+   ],
+   "typicalDuration": {
+    "acupuncture": 60
+   },
+   "volume": 238,
+   "languages": [
+    "English",
+    "Punjabi"
+   ]
+  },
+  {
+   "id": "navkiran-kaur-gill",
+   "name": "Navkiran Kaur Gill",
+   "clinics": [
+    "revive"
+   ],
+   "categories": [
+    "acupuncture"
+   ],
+   "typicalDuration": {
+    "acupuncture": 60
+   },
+   "volume": 109,
+   "languages": [
+    "English",
+    "Punjabi"
+   ]
+  },
+  {
+   "id": "queenie-uy",
+   "name": "Queenie Uy",
+   "clinics": [
+    "bethesda",
+    "revive"
+   ],
+   "categories": [
+    "aesthetics"
+   ],
+   "typicalDuration": {
+    "aesthetics": 75
+   },
+   "volume": 472,
+   "languages": [
+    "English",
+    "Tagalog"
+   ]
+  },
+  {
+   "id": "seeba-alexander",
+   "name": "Seeba Alexander",
+   "clinics": [
+    "bethesda"
+   ],
+   "categories": [
+    "massage"
+   ],
+   "typicalDuration": {
+    "massage": 90
+   },
+   "volume": 203,
+   "languages": [
+    "English",
+    "Malayalam"
+   ]
+  },
+  {
+   "id": "sonu-johny",
+   "name": "Sonu Johny",
+   "clinics": [
+    "revive"
+   ],
+   "categories": [
+    "physio"
+   ],
+   "typicalDuration": {
+    "physio": 40
+   },
+   "volume": 816,
+   "languages": [
+    "English",
+    "Malayalam"
+   ]
+  },
+  {
+   "id": "sudeesh-e",
+   "name": "Sudeesh E",
+   "clinics": [
+    "bethesda",
+    "revive"
+   ],
+   "categories": [
+    "physio"
+   ],
+   "typicalDuration": {
+    "physio": 25
+   },
+   "volume": 2471,
+   "languages": [
+    "English",
+    "Malayalam"
+   ]
+  }
+ ],
+ "showcaseProviders": [
+  "sudeesh-e",
+  "anastasiia-shvorak",
+  "ahmed-sleiman",
+  "sonu-johny",
+  "binu-johnson",
+  "lucy-wood"
+ ]
+}
